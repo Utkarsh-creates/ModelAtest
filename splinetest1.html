@@ -4,15 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://prod.spline.design/UoEEiKQHtJXnYn4B/scene.splinecode">
+    <link rel="stylesheet" href="https://prod.spline.design/0t8m8armiGSpyWcn/scene.splinecode">
     <title>Document</title>
     <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Ensures padding and borders are included in width/height */
+        }
         body, html {
             background-color: RGB(209, 208, 209);
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
-            overflow: hidden;
+            overflow-y: hidden;
         }
         spline-viewer {
             width: 100%;
@@ -22,7 +28,12 @@
     </style>
 </head>
 <body>
+    <header>
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/0t8m8armiGSpyWcn/scene.splinecode"></spline-viewer>
+    </header>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/UoEEiKQHtJXnYn4B/scene.splinecode"></spline-viewer>
+
 </body>
 </html>
